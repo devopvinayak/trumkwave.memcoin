@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: yellowgreen;
+}
+
+.nav{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav h1{
+    font-size: 80px;
+    margin-left:40%;
+    /* border: 2px solid rgb(6, 80, 240); */
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+    margin-top: 5%;
+}
+
+.box1{
+    border: 1px solid black;
+    height: 100px;
+    width:200px;
+    padding: 10px;
+    padding-left: 35px;
+    font-size: 28px;
+    font-weight:bold;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+    margin-top: 2%;
+}
+
+
+
+.icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.content{
+    width:50%;
+}
+
+.content h1{
+    margin-right: 38%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.content p{
+    font-size: 30px;
+    margin-left:15%; 
+    text-align: start;
+    letter-spacing: 0.5px;
+}
+
+.content h2{
+    margin-left:12%; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color:darkslategray;
+}
+
+
+
+/* .features{
+    margin-top: 8%;
+}
+
+.features h1{
+    text-align: center;
+    align-items: center;
+    color: blueviolet;
+}
+
+.features p{
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main1{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.about{
+    margin-top:10%;
+    background-color: aliceblue;
+    min-height: 100px;
+    min-width: 100%;
+}
+
+.about h1{
+    font-weight: 500;
+    text-align: center;
+    padding-top:75px;
+}
+
+.about span{
+    color:yellowgreen;
+    font-weight: 350;
+}
+
+.about p{
+    width:60%;
+    margin-left: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us h1 {
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.about-us p{
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+.rolls-royce-footer {
+    background-color: #111;
+    color: #d4af37; 
+    text-align: center;
+    padding: 20px 0;
+    width:100%;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+@media (max-width:790px) {
+    .content h1{
+        font-weight: 500;
+        margin-right:40%;
+    }
+} */
+
+@media (max-width:642px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content h1{
+        margin-right: 5%;
+    }
+
+    .features p{
+        width:80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:405px){
+   .img{
+    width: 200px;
+   }
+}
+
+@media (max-width:400px){
+    .content p{
+        width: 112%;
+    }
+
+    footer{
+        width:auto;
+    }
+}
+
+@media (max-width:386px) {
+    .features h1 p{
+        margin-left:20%;
+    }
+} 
